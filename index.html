@@ -2,11 +2,98 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
+    <title>Барбершоп Бородинский</title>
   </head>
   <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершопа Бородинский">
+        </a>
+        <ul class="site-navigation">
+          <li class="site-navigation-item">Информация</li>
+          <li class="site-navigation-item">Новости</li>
+          <li class="site-navigation-item">Прайс-лист</li>
+          <li class="site-navigation-item">Магазин</li>
+          <li class="site-navigation-item">Контакты</li>
+        </ul>
+        <ul class="user-navigation">
+            <li class="user-navigation-login">Вход</li>
+        </ul>
+      </nav>
+    </header>    
+    <main class="container">
+      <h1 class="vis-hidden">Барбершоп Бородинский</h1>
+      <section class="features">
+        <h2 class="vis-hidden">Преимущества</h2>
+        <ul class="features-list">
+          <li class="feature-item">
+            <h3>Быстро</h3>
+            <p>Быстро</p>
+          </li>
+          <li class="feature-item">
+              <h3>Быстро</h3>
+              <p>Мы делаем свою работу быстро! Два часа пролетят незаметно...</p>
+          </li>
+          <li class="feature-item">
+              <h3>Круто</h3>
+              <p>Забудьте, как Вы стриглись раньше. </p>
+          </li>
+          <li class="feature-item">
+              <h3>Дорого</h3>
+              <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. 
+                К тому же, разве цена не дает определенный статус?</p>
+          </li>
+        </ul>
+      </section>
+      <section class="news">
+        <h2>Новости</h2>
+        <ul class="news-list">
+          <li class="news-item">
+            <p>Нам наконец завезли Ягермайстер. </p>
+            <time datetime="2018-01-11">18 января</time>          
+          </li>
+        </ul>
+      </section>
+      <section class="gallery">
+        <h2>Фотогалерея</h2>
+        <figure class="gallery-content">
+          <a href="#"><img src="img/studio.jpg" alt="Интерьер"></a>
+        </figure>
+        <span class"button gallery-button gallery-button-back">Назад</span>
+        <span class"button gallery-button gallery-button-back">Вперед</span>
+      </section>
+      <section class="contacts">
+        <h2>Контактная информация</h2>
+      </section>
+      <section class="appointment">
+        <h2>Записаться</h2>
+        <!--form-->
+      </section>
+    </main>
+    <footer>
+      <p class="footer-contacts">
+        Большая Конюшенная, 58<br>
+      </p>
+      <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <ul>
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Разработано:</b>
+        <a class="button" href="#">HTML Academy</a>
+      </p>
+    </footer>
+    
+    <!--popups-->
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
-
+    <section class="modal modal-login">
+      <h2 class="vis-hidden">Личный кабинет</h2>
+    </section>
+    <section class="modal modal-map">
+        <h2 class="vis-hidden">Схема проезда</h2>
+      </section>
   </body>
 </html>
